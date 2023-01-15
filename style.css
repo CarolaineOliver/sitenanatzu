@@ -1,0 +1,89 @@
+<style>
+	body{
+		background-image: url("images/imgest.webp");
+		background-repeat: no-repeat;
+		background-size: cover;
+
+	}
+	p{
+		text-align: justify;
+	    text-indent:50px;
+		padding: 30px;
+
+	}
+	h1{
+	    background-color: white;
+	    width:250px;
+	    border: 4px solid black;
+		text-align: center;
+		margin-left: 250px;
+	}
+	/*formatacao da imagem home*/
+	figure.principal img{
+		width: 600px;
+		height: 300px;
+	}
+	figure.principal{
+		position: relative;
+		border: 2px  solid white;
+		box-shadow: 10px 10px 10px;
+		width: 600px;
+		height: 300px;
+	}
+	figure.principal figcaption{
+		opacity: 0;
+		position: absolute;
+		top:0px;
+		text-align: center;
+		background: rgb(159, 148, 245);
+		color: rgb(18, 18, 23);
+		font: 50pt bold;
+		width: 590px;
+		height:290px;
+		padding: 10px;
+		transition: opacity 1s;
+	}
+
+	figure.principal:hover figcaption{
+		opacity: 1;
+	}
+	footer#rodape{
+		clear: both;
+		font-size: 10pt;
+		text-align: center;
+		color: white;
+		
+	}
+	
+		
+	/*formatacao menu*/
+nav#menu h2{
+	display:block;
+}
+ nav#menu h2{
+	display:none;
+
+ }
+ nav#menu ol{
+	position:absolute;
+	top:-20px;
+	left: 900px;
+ }
+ nav#menu li{
+	display:inline-block;
+	background-color: rgb(243, 12, 135);
+	text-transform: uppercase;
+	padding: 10px;
+	margin: 2px;
+	box-shadow: 1px 1px 1px 1px;
+ }
+
+ nav#menu li:hover{
+	background-color: aqua;
+ }
+ nav#menu a{
+	color:black;
+ }
+ nav#menu a:hover{
+	color: white;
+ }
